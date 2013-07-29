@@ -154,7 +154,7 @@
         }
 
         function read_settings_from_cookie() {
-            $('#tabsize').val(any($.cookie('tabsize'), '4'));
+            $('#tabsize').val(any($.cookie('tabsize'), '1'));
             $('#brace-style').val(any($.cookie('brace-style'), 'collapse'));
             $('#detect-packers').prop('checked', $.cookie('detect-packers') !== 'off');
             $('#max-preserve-newlines').val(any($.cookie('max-preserve-newlines'), '5'));
